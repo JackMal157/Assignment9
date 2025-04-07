@@ -1,6 +1,5 @@
-import React from 'react';
-import './App.css'
-import logo from './logo.svg';
+import {useState} from 'react';
+import './App.css';
 
 const magazines = [
   { id: 1, title: 'Fenway Park', theme: 'architecture', isAvailable: true },
@@ -28,7 +27,6 @@ const book = {
   title: 'TD Garden',
   location: 'Boston, MA',
   credit: 'Photo taken by Jack Malatesta',
-  image: logo,
   width: '264',
   height: '378'
 };
